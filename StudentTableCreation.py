@@ -9,5 +9,5 @@ import sqlite3
 conn = sqlite3.connect('School.db')
 print("Opened database successfully")
 
-conn.execute('''create table StudentMarks (ID int, Name Text, Subject Text, Marks int)''')
+conn.execute('''create table StudentMarks (ID int, Name Text, Subject Text, Marks int, Department Text)''')
 print("Table created successfully")
